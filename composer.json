@@ -25,6 +25,12 @@
         "orchestra/testbench": "3.8.*|4.*|5.*|6.*|7.*|8.*|9.*",
         "geoip2/geoip2": "~2.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/urveshsuthar-ideagen/pragmarx-support.git"
+        }
+    ]
     "suggest": {
         "geoip/geoip": "~1.14",
         "geoip2/geoip2": "~2.0"
@@ -46,12 +52,6 @@
             "aliases": {
                 "Firewall": "PragmaRX\\Firewall\\Vendor\\Laravel\\Facade"
             }
-        },
-        "repositories": [
-            {
-                "type": "vcs",
-                "url": "https://github.com/urveshsuthar-ideagen/pragmarx-support.git"
-            }
-        ]
+        }
     }
 }
